@@ -20,7 +20,5 @@ public abstract class Animal {
         this.nombre = nombre;
     }
     public abstract String tipoAnimal();
-    public Animal(String nombre){//Constructor
-        this.nombre = nombre;
-    }
+  
 }

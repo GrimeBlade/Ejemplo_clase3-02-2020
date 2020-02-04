@@ -11,14 +11,13 @@ package Animal_paquete;
  */
 public class Perro extends Animal {
 
-    public Perro(String nombre) {
-        super(nombre);
-    }
+   public Perro(String nombre){
+       super.setNombre(nombre);
+   }
 
     @Override
     public String tipoAnimal() {
-        String a =  getNombre();
-        return a;
+        return "Este perro se llama " + super.getNombre();
     }
     
 }
